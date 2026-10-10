@@ -1,0 +1,6 @@
+*.epro2 binary
+
+# Keep GitHub language statistics focused on the application code.
+RTOS_LCD/Core/LVGL/** linguist-vendored
+RTOS_LCD/Drivers/** linguist-vendored
+RTOS_LCD/Middlewares/** linguist-vendored

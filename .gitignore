@@ -1,0 +1,29 @@
+# Keil user settings and build intermediates
+*.uvguix.*
+*.uvoptx
+*.o
+*.obj
+*.crf
+*.d
+*.dep
+*.lnp
+*.axf
+*.map
+*.htm
+*.build_log.htm
+
+# Keep the released firmware image
+!RTOS_LCD/MDK-ARM/RTOS_LCD/RTOS_LCD.hex
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.vs/
+Thumbs.db
+.DS_Store
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.user
+*~
